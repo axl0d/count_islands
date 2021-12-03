@@ -12,7 +12,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
-  flutter_hooks: ^0.18.1
   hooks_riverpod: ^1.0.1
   number_of_islands:
     git: https://github.com/axl0d/number_of_islands.git
