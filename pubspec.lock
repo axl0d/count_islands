@@ -119,9 +119,11 @@ packages:
   number_of_islands:
     dependency: "direct main"
     description:
-      path: "packages/number_of_islands"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: b6845ce0aada72a9996d5987b9418eabec61d75b
+      url: "https://github.com/axl0d/number_of_islands.git"
+    source: git
     version: "1.0.0"
   path:
     dependency: transitive
