@@ -3,8 +3,8 @@ import 'package:number_of_islands/number_of_islands.dart';
 
 part 'islands_board_state.dart';
 
-final islandsBoardController = StateNotifierProvider.autoDispose<
-    IslandsBoardController, IslandsBoardState>((ref) {
+final islandsBoardController =
+    StateNotifierProvider<IslandsBoardController, IslandsBoardState>((ref) {
   return IslandsBoardController();
 });
 
